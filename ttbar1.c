@@ -15,6 +15,8 @@ void ttbar1()
 	t -> Draw("MCJetPt >> histo");
 	TH1F *h = (TH1F*) f -> Get("histo");
 	h -> Draw("PE");
+	
+
 
 	h -> GetXaxis() -> SetRangeUser(0,550);
 
